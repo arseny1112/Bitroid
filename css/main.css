@@ -275,6 +275,11 @@ button {
 	width: 40px;
 }
 
+.pagination__page{
+  background-color: unset;
+  color: rgba(36, 36, 36, 1);
+}
+
 .prev {
 	margin-right: 5px;
 }
@@ -431,6 +436,7 @@ button {
 	padding: 7px 14px;
 	border-radius: 20px;
 	max-width: 57px;
+  color: rgba(36, 36, 36, 1);
 	margin-top: 20px;
 }
 
@@ -508,6 +514,7 @@ button {
 	border-radius: 50px;
 	padding: 20px;
 	margin-bottom: 20px;
+  color: rgba(36, 36, 36, 1);
 }
 
 .catalog__list {
@@ -589,6 +596,12 @@ button {
 	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.month-select,
+.year-select{
+  background-color: unset;
+  color: rgba(36, 36, 36, 1);
+}
+
 .weekend {
 	background-color: rgba(36, 36, 36, 1);
 	color: white;
@@ -652,6 +665,7 @@ button {
 	margin-bottom: 20px;
 }
 
+
 .catalog__tags {
 	margin-top: 30px;
 	column-gap: 5px;
@@ -672,6 +686,7 @@ button {
 	background-color: rgba(255, 255, 255, 1);
 	padding: 10px 17px;
 	line-height: 10px;
+  color: rgba(36, 36, 36, 1);
 	border-radius: 10px;
 }
 
@@ -687,6 +702,7 @@ button {
 
 .news__filter {
 	padding: 10px 16px;
+  color: rgba(36, 36, 36, 1);
 	border-radius: 10px;
 	background: #fff;
 	line-height: 8px;
@@ -744,6 +760,11 @@ button {
 	line-height: 10px;
 	font-size: 14px;
 	color: rgba(36, 36, 36, 0.6);
+}
+
+.news-wide,
+.footer__middle-449{
+  display: none;
 }
 
 .footer {
